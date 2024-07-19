@@ -1,0 +1,35 @@
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; /* approximately the same as 'gap-4' in Tailwind */
+  }
+  
+  p {
+    color: white;
+    font-weight: bold; /* equivalent to 'font-bold' */
+  }
+  
+  div {
+    display: flex;
+    gap: 1.25rem; /* approximately the same as 'gap-5' in Tailwind */
+    
+    justify-content: center;
+  }
+  
+  button {
+    padding: 1rem; /* equivalent to 'p-4' */
+    border-radius: 0.5rem; /* equivalent to 'rounded-lg' */
+    color: white;
+    font-size: 1.5rem; /* equivalent to 'text-2xl' */
+    font-weight: bold; /* equivalent to 'font-bold' */
+    display: flex;
+  }
+  
+  button.amber4 {
+    background-color: #fbbf24; /* equivalent to 'bg-amber-400' */
+  }
+  
+  button.amber5 {
+    background-color: #f59e0b; /* equivalent to 'bg-amber-500' */
+  }
+  
